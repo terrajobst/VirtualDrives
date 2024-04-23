@@ -1,0 +1,10 @@
+<Project>
+
+    <PropertyGroup>
+        <UseArtifactsOutput>true</UseArtifactsOutput>
+        <ArtifactsPath>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..))/.artifacts</ArtifactsPath>
+        <ArtifactsPivots>.</ArtifactsPivots>
+        <PackageOutputPath>$(ArtifactsPath)/package</PackageOutputPath>
+    </PropertyGroup>
+
+</Project>
